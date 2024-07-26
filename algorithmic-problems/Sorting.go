@@ -53,14 +53,15 @@ func selectionSort(array []int) {
 }
 
 func main() {
-	array2 := []int{6, 1, 7, 4, 2, 9, 8, 5, 3}
+	array := []int{6, 1, 7, 4, 2, 9, 8, 5, 3}
+	array = []int{7, 14, 11, 8, 9}
 
-	//bubbleSort(array)
+	bubbleSort(array)
 	//insertionSort(array2)
 
-	selectionSort(array2)
+	//selectionSort(array)
 
-	fmt.Println(array2)
+	fmt.Println(array)
 }
 
 // Swap two elements in an array
